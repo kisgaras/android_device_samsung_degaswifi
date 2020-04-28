@@ -21,7 +21,7 @@ $(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 # Inherit from the common Open Source product configuration
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_degaswifi.mk)
 #TODO Add this file
-#$(call inherit-product, device/samsung/degaswifi/full_degaswifi.mk)
+$(call inherit-product, device/samsung/degaswifi/full_degaswifi.mk)
 
 # Boot animation
 #TARGET_SCREEN_HEIGHT := 1280
