@@ -21,26 +21,31 @@ TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 800
 
 # Ramdisk
-PRODUCT_PACKAGES += \
-	ueventd.pxa1088.rc \
-	init.pxa1088.rc \
-	init.pxa1088.usb.rc \
-	init.pxa1088.tel.rc \
-	init.wifi.rc \
-	init.pxa1088.sensor.rc \
-	init.pxa1088.security.rc \
-	fstab.pxa1088
+#TODO that guy deleted it
+#PRODUCT_PACKAGES += \
+	#ueventd.pxa1088.rc \
+	#init.pxa1088.rc \
+	#init.pxa1088.usb.rc \
+	#init.pxa1088.tel.rc \
+	#init.wifi.rc \
+	#init.pxa1088.sensor.rc \
+	#init.pxa1088.security.rc \
+	#fstab.pxa1088
 
 # Net
-PRODUCT_PACKAGES += \
-    libnetcmdiface
+#TODO that guy deleted it
+#PRODUCT_PACKAGES += \
+    #libnetcmdiface
 
 # Screen Density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
 # Dalvik VM
+#TODO seems alright still I added todo for noreason because why not
 $(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
 
 # Get Proprietary libraries and binaries
 $(call inherit-product, vendor/samsung/degaswifi/degaswifi-vendor.mk)
+
+#TODO Add overlay folder and folder path below
